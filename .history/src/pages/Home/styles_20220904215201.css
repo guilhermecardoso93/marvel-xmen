@@ -1,0 +1,27 @@
+.video-responsive {
+  display: flex;
+  flex-direction: column;
+  align-itens: center;
+  justifay-content: center;
+  margin: 2rem 10%;
+  padding: 2rem;
+  min-width:auto;
+  min-height: 5rem;
+
+  background: #fff;
+  border-radius: 10px;
+  height: 80vh;
+}
+
+.video-responsive div {
+  display: flex;
+}
+.video-responsive iframe {
+  
+  height: 60%;
+  width: 55%;
+  min-width: 20rem;
+  min-height: 5rem;
+  position: absolute;
+  border-radius: 10px;
+}

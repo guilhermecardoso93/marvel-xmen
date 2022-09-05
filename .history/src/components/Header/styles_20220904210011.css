@@ -1,0 +1,31 @@
+.navbar {
+  background: red;
+  color: #fff !important;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.navbar-nav {
+  gap: 1rem;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center !important;
+  align-itens: center !important;
+  color: #fff !important;
+  border-radius: 10px;
+  max-width: 11rem;
+  margin: 0 auto;
+  gap: 10px;
+  padding: 0 10px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+.nav-link div {
+  display: flex;
+  aling-itens: center;
+  gap: 2rem
+}

@@ -1,0 +1,13 @@
+.video-responsive {
+  display:flex;
+  margin: 0 auto;
+
+}
+
+.video-responsive iframe {
+  margin: 0 auto;
+  
+  height: 50%;
+  width: 50%;
+  position: absolute;
+}
